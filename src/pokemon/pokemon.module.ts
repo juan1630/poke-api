@@ -15,6 +15,9 @@ import { PokemonController } from './pokemon.controller';
         schema: PokemonSchema
       }
     ])
+  ],
+  exports:[
+    MongooseModule
   ]
 })
 export class PokemonModule {}
